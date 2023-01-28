@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: pink;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.btn {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.redClass {
+  background: red;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+.output {
+  width: 400px;
+  height: 100px;
+  font-size: 20px;
+  background: white;
+  padding: 10px;
+}
+
+.result1 {
+  margin-top: 10px;
+  width: 400px;
+  /* border: 2px solid black; */
+  height: 400px;
+  flex-grow: 1;
+  font-size: 16px;
+  padding: 10px;
+  font-family: cursive;
+  height: 350px;
+}
+
+.result2 {
+  margin-top: 10px;
+  width: 400px;
+  /* border: 2px solid black; */
+  height: 400px;
+  flex-grow: 1;
+  font-size: 16px;
+  padding: 10px;
+  font-family: cursive;
+  height: 350px;
+}
+
+.resultDiv {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+}
