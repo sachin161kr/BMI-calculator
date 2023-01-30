@@ -4,17 +4,35 @@ body {
   background: pink;
   align-items: center;
 }
-
-.main {
-  display: flex;
-  flex-direction: column;
+h1{
+  /* font-family: fantasy; */
+  font-size: 40px;
+  color: rgb(60, 96, 116);
 }
-
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 input {
+  display: flex;
   width: 300px;
   height: 50px;
   font-size: 20px;
-  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px
+}
+.height {
+  background-color: rgb(225, 254, 254);
+  border: 2px solid black;
+  padding-right: 32px;
+}
+.weight {
+  background-color: rgb(225, 254, 254);
+  border: 2px solid black;
+  padding-right: 32px;
 }
 
 .btn {
@@ -26,7 +44,7 @@ input {
 }
 
 .redClass {
-  background: red;
+  background: rgb(247, 76, 76);
   color: white;
 }
 
@@ -35,10 +53,10 @@ input {
 }
 
 .output {
-  width: 400px;
-  height: 100px;
+  width: 350px;
+  height: 50px;
   font-size: 20px;
-  background: white;
+  background: pink;
   padding: 10px;
 }
 
@@ -46,28 +64,86 @@ input {
   margin-top: 10px;
   width: 400px;
   /* border: 2px solid black; */
-  height: 400px;
+  height: 240px;
   flex-grow: 1;
   font-size: 16px;
   padding: 10px;
   font-family: cursive;
-  height: 350px;
+  background: #bbbbf0;
+  border-radius: 50px;
 }
 
 .result2 {
   margin-top: 10px;
   width: 400px;
   /* border: 2px solid black; */
-  height: 400px;
+  height: 240px;
   flex-grow: 1;
   font-size: 16px;
   padding: 10px;
   font-family: cursive;
-  height: 350px;
+  background: #bbbbf0;
+  border-radius: 50px;
 }
 
 .resultDiv {
   display: flex;
   flex-direction: row;
-  width: 600px;
+  width: 650px;
+  height: 250px;
 }
+@media screen and (max-width: 800px) {
+  .result1{
+    margin : 50px;
+    width: 543px;
+    height: 261px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: cursive;
+    background: #bbbbf0;
+    border-radius: 50px;
+  }
+  .result2{
+    margin : 50px;
+    width: max-content;
+    height: 261px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: cursive;
+    background: #bbbbf0;
+    border-radius: 50px;
+  }
+  }
+  @media screen and (max-width: 500px) {
+    .output {
+      width: 350px;
+      height: 11px;
+      font-size: 18px;
+      background: pink;
+      padding: 10px;
+  }
+    .result1{
+      margin: 49px;
+      width: 498px;
+      height: 242px;
+      font-size: 14px;
+      padding: 6px;
+      font-family: cursive;
+      background: #bbbbf0;
+      border-radius: 86px;
+      display: flex;
+    flex-grow: 0;
+      align-items: center;
+      justify-content: center;
+    }
+    .result2 {
+      margin: 52px;
+      width: max-content;
+      height: 202px;
+      font-size: 14px;
+      padding: 10px;
+      font-family: cursive;
+      background: #bbbbf0;
+      border-radius: 86px;
+    }
+    }

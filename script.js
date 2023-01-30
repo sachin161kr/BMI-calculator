@@ -62,7 +62,7 @@ btn.addEventListener("click", (e) => {
     )} (overweight) , Normal BMI is between 18.5 to 24.9`;
 
     result2.innerHTML = `
-        <div>
+        <div >
           <ul>
             <li>High blood pressure</li>
             <li>Type II diabetes</li>
@@ -74,7 +74,7 @@ btn.addEventListener("click", (e) => {
             </li>
           </ul>
         </div>
-      ;`;
+      ;`
 
     result1.classList.add("hide");
     result2.classList.remove("hide");
