@@ -8,15 +8,16 @@
     <title>BMI Calculator</title>
   </head>
   <body>
+    <h1> BMI Calculator</h1>
     <div class="main">
-      <input class="height" type="number" placeholder="Enter Height (in cm)" />
-      <input class="weight" type="number" placeholder="Enter Weight (in kg)" />
+      <input class="height" type="number" placeholder="Enter Height (in cm)" min="30" max="250" /> 
+      <input class="weight" type="number" placeholder="Enter Weight (in kg)" min="30" max="250" />
       <input class="btn" type="button" value="Get BMI" />
       <div class="output"></div>
     </div>
     <div class="resultDiv">
-      <div class="result1 , hide">Underwieght</div>
-      <div class="result2 , hide">Overweight</div>
+      <div class="result1  hide">Underwieght</div>
+      <div class="result2  hide">Overweight</div>
     </div>
   </body>
   <script src="/script.js"></script>
